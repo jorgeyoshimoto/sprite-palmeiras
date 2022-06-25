@@ -1,0 +1,2 @@
+# sprite-palmeiras
+palmeiras diminuindo

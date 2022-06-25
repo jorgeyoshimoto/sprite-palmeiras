@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.sprite{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: calc(1581px / 10);
+  height: 158px;
+  background: url(imagem/palmeiras.png);
+  animation: animacao 1s steps(10) infinite;
+}
+@keyframes animacao
+{
+  from
+  {
+    background-position:0;
+  }
+  to
+  {
+    background-position: -1581px;
+  }
+}
